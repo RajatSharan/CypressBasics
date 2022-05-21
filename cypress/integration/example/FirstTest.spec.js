@@ -21,6 +21,15 @@ describe('My First Test Suit', () => {
 
       }
           
+
+     cy.get('.brand').then(function(logoelement){
+
+      cy.log(logoelement.text())
+
+     })
+
+     
+   
         
       })
     })
