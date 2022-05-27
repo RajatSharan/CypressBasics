@@ -3,7 +3,7 @@
 
 describe('Handling child Windows',function(){
 
-    it('Handling Alerts', function() {
+    it('Handling child Windows Test case', function() {
 
     //Handling Child tab with combination of Cypress & Jquery commands
   
